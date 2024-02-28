@@ -1,0 +1,76 @@
+*{
+    font-family: "Work Sans", sans-serif;
+}
+
+body {
+    font-family: "Work Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1C1C1C;
+    color: #fafafa;
+    font-family: worksans;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    font-family: "Work Sans", sans-serif;
+    background-color: #1C1C1C;
+    color: #fafafa;
+    text-align: center;
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.subtitle{
+    color:#C1C1C1
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#todo-input {
+    font-family: "Work Sans", sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical; /* Added to allow vertical resizing */
+    min-height: 50px; /* Added minimum height for the textarea */
+    max-height: 200px; /* Added maximum height for the textarea */
+}
+
+#submit-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    column-gap: 8px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: inline-flex; /* Changed display to inline-flex */
+    align-items: center; /* Added to vertically center align content */
+}
+
+#submit-btn:hover {
+    background-color: #0056b3;
+}
